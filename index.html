@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: interbold;
+      src: url(assets/fonts/static/Inter-Bold.ttf);
+    }
+
+    @font-face {
+      font-family: interegular;
+      src: url(assets/fonts/static/Inter-Regular.ttf);
+    }
+
+    @font-face {
+      font-family: intersemi;
+      src: url(assets/fonts/static/Inter-SemiBold.ttf);
+    }
+
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    body {
+      background-color: #141414;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    button {
+      margin-top: 15px;
+      border: none;
+      cursor: pointer; 
+
+      display: block;
+      background-color: #333333;
+      color: white;
+      width: 300px;
+      height: 43px;
+      border-radius: 7px;
+      font-weight: bold;
+      font-family: interbold, sans-serif;
+      transition: 1s;
+    }
+
+    button:hover {
+      background-color: #c4f82a;
+      color: #1f1f1f;
+    }
+
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #buttons{
+      margin-bottom: 10px;
+    }
+
+    #container {
+      background-color: #1f1f1f;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 50px;
+      border-radius: 10px;
+      font-family: interegular, sans-serif;
+      color: white;
+      transition: 1s;
+    }
+
+    #name {
+      /* font-weight: bolder; */
+      font-size: x-large;
+      font-family: intersemi, sans-serif;
+      margin: 10px 10px;
+    }
+
+    #location {
+      color: #c4df54;
+      font-size: 14px;
+      font-family: interbold, sans-serif;
+    }
+    #desc{
+      font-family: interegular, sans-serif;
+      font-size: 16px;
+    }
+    img {
+      border-radius: 100%;
+      margin-bottom: 15px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      button {width: 250px; float: left;}
+      #container {width: 250px}
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <img src="assets/images/avatar-jessica.jpeg" width="100px">
+    <font id="name">Jessica Randall</font>
+    <font id="location">London, United Kingdom</font><br>
+    <font id="desc">"Front-end developer and avid reader."</font><br>
+    <div id="buttons">
+      <button>GitHub</button>
+      <button>Frontend Mentor</button>
+      <button>LinkedIn</button>
+      <button>Twitter</button>
+      <button>Instagram</button>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
